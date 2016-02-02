@@ -1,0 +1,74 @@
+doctype html
+html(lang='en')
+	include head.jade
+	body
+		include header.jade
+		// HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE
+		.page-home
+			section
+				h1.page-title
+					| YSW-Austin
+					br
+					| Starter Kit
+				p Ground zero for your next project.
+				a.button.button-download(href='https://github.com/theskillwithin/Ysw-Starter-Kit/archive/master.zip') Download Now
+				a.fork-tag(href='https://github.com/theskillwithin/Ysw-Starter-Kit/') Fork Me on GitHub
+			section
+				article
+					h4 Watch the Video
+					.flex-video-wrap
+						.flex-video
+							iframe(src='https://www.youtube.com/embed/F3u7whqIxrc?rel=0&controls=0&showinfo=0', frameborder='0', allowfullscreen='')
+				article
+					p Brought to you by
+					.name-lockup
+						img.avatar(src='https://yt3.ggpht.com/-47U43a3eNW0/AAAAAAAAAAI/AAAAAAAAAAA/fWgb7mKcn6k/s176-c-k-no/photo.jpg')
+						.name
+							strong Travis Neilson
+							br
+							a(href='https://twitter.com/DevTipsShow') @DevTipsShow
+					p and...
+					.name-lockup
+						.name-lockup
+							.name
+								strong //yswhosting.com/sandbox/mike/build-starter-files/
+			pre.
+				\n    Starter-Kit
+						| -- assets/
+						|   | -- css/
+						|   |   | -- 1-tools/
+						|   |   |   | -- bourbon/
+						|   |   |   | -- fonts.sass
+						|   |   |   | -- normalize.sass
+						|   |   |   | -- vars.sass
+						|   |   | -- 2-basics/
+						|   |   |   | -- body-elements.sass
+						|   |   |   | -- example-buttons.sass
+						|   |   |   | -- links.sass
+						|   |   |   | -- selection-colors.sass
+						|   |   |   | -- typography.sass
+						|   |   | -- 3-modules/
+						|   |   |   | -- example-flex-video.sass
+						|   |   |   | -- example-fork-tag.sass
+						|   |   |   | -- _example-module-name-lockup.sass
+						|   |   | -- 4-pages/
+						|   |   |   | -- example-page.sass
+						|   |   |   | -- header-main.sass
+						|   |   |   | -- homepage-main.sass
+						|   |   |   | -- section-main.sass
+						|   |   |   | -- item-main.sass
+						|   |   |   | -- footer-main.sass
+						|   |   |   | -- queries-1200px.sass
+						|   |   |   | -- queries-1000px.sass
+						|   |   |   | -- queries-788px.sass
+						|   |   |   | -- queries-570px.sass
+						|   |   |   | -- queries-380px.sass
+						|   |   |   | -- queries-other.sass
+						|   |   | -- main.sass
+						|   | -- img/
+						| -- favicon.ico
+						| -- readme.md
+						| -- index.html
+						| -- lib/xxx/
+			// HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE
+		include footer.jade

@@ -1,0 +1,85 @@
+header 
+	height: 162px
+	background-color: black
+	position: relative
+	>div
+		position: relative
+		top: 50%
+		transform: translateY(-50%)
+	.info
+		max-width: 724px
+		width: 100%
+		width: 724px
+	.social
+		a 
+			width: 32px
+			height: 32px
+			display: block
+		svg
+			width: 31px
+			height: 31px
+			&:hover 
+				.outer-shape
+					fill: #476065 !important
+	.address
+		color: #d9ceb2
+		//font-weight: 500
+		font-size: 15px
+	.phone
+		color: white
+		font-weight: bold
+		font-size: 15px
+	.language
+		width: 91px
+		a
+			img
+				width: 26px
+				height: 21px
+	.nav-container
+		align-content: space-between
+		height: 100px
+	nav
+		background-color: #99b2b7
+		height: 64px
+		font-size: 18px
+		position: relative
+		width: 100%
+		ul
+			list-style-type: none
+			height: 100%
+			width: 100%
+			margin: 0px
+			padding: 0px
+			li
+				height: 100%
+		a
+			height: 100%
+			display: flex
+			align-items: center
+			position: relative
+			color: #f0fdff
+			&:hover
+				color: #263133
+				border-bottom: 3px solid #d9ceb2
+				pointer: cursor
+
+
+
+
+@media (max-width: 775px)
+	.home-wrap header
+		width: auto
+		padding: 20px 0
+
+	.header-positioner
+		width: auto
+		position: relative
+		top: auto
+		bottom: auto
+		left: auto
+		flex-direction: row
+		align-items: center
+
+	.site-nav,
+	.email-link
+		display: none

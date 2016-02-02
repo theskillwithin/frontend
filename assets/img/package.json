@@ -1,0 +1,16 @@
+{
+  "name": "svgCombiner",
+  "version": "0.0.1",
+  "description": "Utility that combines separate svg files in a single icon file in a way we expect at Carleton. Also generates test/example html.",
+  "main": "combiner.sh",
+  "dependencies": {
+    "optimist": "~0.6.1",
+    "xmldoc": "~0.3.0",
+	"exec-sync": "~0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Feiler"
+}
