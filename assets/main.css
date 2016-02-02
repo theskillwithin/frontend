@@ -440,14 +440,24 @@ input[type="button"] {
 
   .col-50 {
     width: auto; } }
+body {
+  overflow-x: hidden; }
+
+#home header {
+  height: 50vh;
+  background-image: url("img/banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
 header {
-  background-image: url("assets/img/banner.png");
-  height: 162px;
-  position: relative; }
-  header > div {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
+  height: 130px;
+  background-color: black;
+  position: relative;
+  padding-top: 20px; }
+  header .nav-container {
+    align-content: flex-start;
+    align-self: flex-start; }
   header .info {
     max-width: 724px;
     width: 100%;
