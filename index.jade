@@ -6,14 +6,33 @@ html(lang='en')
 		include header.jade
 		// HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE
 		.page-home
-			section
-				h1.page-title
-					| YSW-Austin
-					br
-					| Starter Kit
-				p Ground zero for your next project.
-				a.button.button-download(href='https://github.com/theskillwithin/Ysw-Starter-Kit/archive/master.zip') Download Now
-				a.fork-tag(href='https://github.com/theskillwithin/Ysw-Starter-Kit/') Fork Me on GitHub
+			.sex
+				.col-2.flex.flex--row
+					.female.col-5
+						img(src="assets/img/female.png", alt="Female")
+					.male-female.col-5
+						img(src="assets/img/male-female.png", alt="Male")
+					.male.col-5
+						img(src="assets/img/male.png", alt="Male")
+			section.bio.flex
+				article.col-1.flex.flex--row
+					.headshot
+						img(src="assets/img/marko.png", alt="Headshot1")
+					.about
+						h3 Dr Saša Mišeljić
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ratione, architecto explicabo itaque atque reiciendis velit nam sequi quidem assumenda magnam ea nihil natus ducimus minima quisquam, saepe doloremque. Nostrum.
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dignissimos sunt animi dolor voluptatem ex, ratione tempore quam. Quod, aspernatur laborum nostrum nulla eos laboriosam velit accusamus magni quo explicabo.
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi, porro saepe. Atque culpa, vitae obcaecati tempore ducimus suscipit placeat eius impedit rerum, veritatis perspiciatis possimus perferendis quasi eveniet esse.
+						button Read More
+				article.col-1.flex.flex--row
+					.headshot
+						img(src="assets/img/sasa.png", alt="Headshot2")
+					.about
+						h3 Dr Marko Milosavljević
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ratione, architecto explicabo itaque atque reiciendis velit nam sequi quidem assumenda magnam ea nihil natus ducimus minima quisquam, saepe doloremque. Nostrum.
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dignissimos sunt animi dolor voluptatem ex, ratione tempore quam. Quod, aspernatur laborum nostrum nulla eos laboriosam velit accusamus magni quo explicabo.
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi, porro saepe. Atque culpa, vitae obcaecati tempore ducimus suscipit placeat eius impedit rerum, veritatis perspiciatis possimus perferendis quasi eveniet esse.
+						button Read More
 			section
 				article
 					h4 Watch the Video
